@@ -56,3 +56,18 @@ button{
     border-radius: 0px 6px 6px 0px;
     cursor: pointer;
 }
+
+.movieList{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 420px;
+    flex-direction: column;
+
+}
+
+.movieList > img, p{
+    margin: 0 auto;
+}
+
+
