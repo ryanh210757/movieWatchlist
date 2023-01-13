@@ -32,3 +32,27 @@ button{
     text-shadow: 1px 1px 2px grey, 0 0 1em grey, 0 0 0.2em grey;
 }
 
+.search{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 189px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.searchBar{
+    width: 342px;
+    height: 38px;
+    padding: 9px 13px;
+}
+
+.searchBtn{
+    width: 120px;
+    background: #F9FAFB;
+    border: 1px solid #D1D5DB;
+    border-radius: 0px 6px 6px 0px;
+    cursor: pointer;
+}
