@@ -70,4 +70,17 @@ button{
     margin: 0 auto;
 }
 
+.movieLayout{
+    border: 2px red solid;
+
+}
+
+.movieStats{
+    flex-direction: column;
+}
+
+.movieContainer{
+    border: 2px blue solid;
+    display: flex;
+}
 
