@@ -18,17 +18,17 @@ document.getElementById("searchBtn").addEventListener("click", function (){
                     html += 
                     `
                     <div class="movieLayout">
-                        <img src="${data.Poster}"/>
+                    <img class="poster" src="${data.Poster}"/>
                         <div class="movieContainer">
-                        <h2>${data.Title}</h2>
-                        <p>${data.imdbRating}</p>
+                            <h2>${data.Title}</h2>
+                            <p>${data.imdbRating}</p>
                         <div class="movieStats">
                             <p>${data.Runtime}</p>
                             <p>${data.Genre}</p>
                             <button>Watchlist</button
                         </div>
-                        <p>${data.Plot}</p>
-                    </div>
+                            <p>${data.Plot}</p>
+                        </div>
                     </div>
                     `
                     document.getElementById("movieList").innerHTML =  html        

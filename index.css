@@ -72,7 +72,10 @@ button{
 
 .movieLayout{
     border: 2px red solid;
-
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .movieStats{
@@ -84,3 +87,17 @@ button{
     display: flex;
 }
 
+.movieContainer > p{
+    width: 15px;
+    height: 20px;
+} 
+
+.movieStats{
+    border: 2px green solid;
+}
+
+.poster{
+    width: 99px;
+    height: 147.41px;
+    border-radius: 2.32941px;
+}
